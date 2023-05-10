@@ -12,14 +12,14 @@ The code provides a complete pipeline for training the model, evaluating its per
 This is how the model performs before undergoing any training, where you can see it's basically just doing random guessing.
 
 ##### 10 epoch
-![10 epoch](static/10_epoch.png)
+![10 epoch](static/10_epoch_plot.png)
 ![10 epoch loss](static/10_epoch_loss.png)
 
 After 10 epochs of training, the model starts to correctly make prediction with medium confidence.
 
 
 ##### 20 epoch
-![20 epoch](static/20_epoch.png)
+![20 epoch](static/20_epoch_plot.png)
 ![20 epoch loss](static/20_epoch_loss.png)
 
 After 20 epochs of training, the model is finally able to confidently make prediction with high degree of accuracy.
