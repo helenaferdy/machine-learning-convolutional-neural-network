@@ -129,7 +129,7 @@ def test_step(model, data_loader, loss_fn, accuracy_fn, device=device):
       test_acc += accuracy_fn(y, test_pred.argmax(dim=1)) #logits to label
     test_loss /= len(data_loader)
     test_acc /= len(data_loader)
-    print(f"\nTest loss: {test_loss:.5f} | Train accuracy: {test_acc:.5f}")
+    print(f"\nTest loss: {test_loss:.5f} | Test accuracy: {test_acc:.5f}")
       
       
 def make_predictions(model, data: list, device = device):
